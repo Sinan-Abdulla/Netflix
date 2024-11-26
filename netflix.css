@@ -1,0 +1,212 @@
+.mainn {
+
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(https://assets.nflxext.com/ffe/siteui/vlv3/03ad76d1-e184-4d99-ae7d-708672fa1ac2/web/IN-en-20241111-TRIFECTA-perspective_149877ab-fcbd-4e4f-a885-8d6174a1ee81_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.Unlimited {
+    
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 9%;
+}
+
+.sign {
+    background-color: red;
+    align-items: center;
+    color: white;
+    font-size: 0.875rem;
+    border: width 0.0625rem;
+    border-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-radius: calc(.25rem - 0.0625rem);
+    position: absolute;
+    font-weight: bold;
+    padding: 4px;
+    width: 90px;
+}
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+
+} */
+
+.image {
+    width: 190px;
+    
+    
+}
+.image img {
+    width: 100%;
+}
+
+img {
+    width: 170%;
+
+    padding: 10px;
+}
+
+.pp {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 220px;
+
+
+}
+
+.lang {
+    margin-right: 12px;
+    padding-top: 0.375rem;
+    line-height: 1.25rem;
+    padding-bottom: 0.375rem;
+    padding-left: calc(0.0625rem + 1rem + 0.5rem);
+    font-weight: bold;
+
+    /* background-color: black; */
+}
+
+.select {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 3px;
+    width: 80px;
+}
+
+.Starts {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+    ;
+}
+
+.Ready {
+    color: rgb(255, 255, 255);
+    padding-top: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    background: transparent;
+}
+
+.mail {
+    background: transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 15px 15px 15px 17px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+}
+
+.btn {
+    width: 100%;
+    margin-left: 10px;
+
+}
+
+.line {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    border-top: solid 0.25rem #e50914;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    background: radial-gradient(50% 500% at 50% -420%,
+            rgba(64, 97, 231, 0.4)80%,
+            rgba(0, 0, 0, 0.1)100%), black;
+    margin-top: 160px;
+}
+
+.mainremaining {
+    background-color: black;
+    height: 3000px;
+}
+
+.trending {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: white;
+}
+
+.india select {
+    background: transparent;
+    color: white;
+    margin-right: 10px;
+}
+.more{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: white;
+}
+@media(max-width:580px){
+.sign{
+    padding: 2px;
+}
+.mainn{
+    height: 100vh;
+}
+}
+.card1{
+    background-color: purple;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.card2{
+    background-color:purple;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.card3{
+    background-color: purple;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.card4{
+    background-color: purple;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.Frequently{
+    color: #fff;
+}
+.ready{
+    color: rgb(255, 255, 255);
+    padding-top: 38px;
+    font-weight: bold;
+    text-align: center;
+
+} 
+.bakki{
+    color: #e50914;
+    background-color: red;
+}
+.n{
+    color:#fff;
+}
